@@ -62,7 +62,11 @@
   - [8.1 Install WireGuard VPN](#81-install-wireguard-vpn)
   - [8.2 Import WireGuard client configuration file, and activate VPN (must use external network)](#82-import-wireguard-client-configuration-file-and-activate-vpn-must-use-external-network)
   - [8.3 Three ways to validate the `VPN tunnel` (must use external network)](#83-three-ways-to-validate-the-vpn-tunnel-must-use-external-network)
-  
+
+- [9. SSH Login to the DGX Spark Server](#9-ssh-login-to-the-dgx-spark-server)
+  - [9.1 Logging to the DGX Spark Server from your Mac/PC Client](#91-logging-to-the-dgx-spark-server-from-your-macpc-client)
+  - [9.2 Monitoring the DGX Spark Server](#92-monitoring-the-dgx-spark-server)
+
 ---
 
 ## 1. Router setup (required)
