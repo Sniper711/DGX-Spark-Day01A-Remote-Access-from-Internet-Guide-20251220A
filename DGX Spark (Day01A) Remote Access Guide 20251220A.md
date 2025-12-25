@@ -451,7 +451,7 @@ Confirm that the Mac/PC is not connected to the home network, at this point:
 - From `~/vpn/wireguard`, select `wg-mac-pc.conf`, then click `Import`
 - If the displayed configuration looks correct, click `Activate`
 
-### 8.3 Four ways to validate the VPN tunnel (must use external network)
+### 8.3 Three ways to validate the `VPN tunnel` (must use external network)
 
 #### Method 1 — Ping the default gateway of most home routers
 If the VPN is working, you should be able to:
