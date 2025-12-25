@@ -454,7 +454,7 @@ Confirm that the Mac/PC is not connected to the home network, at this point:
 ### 8.3 Three ways to validate the `VPN tunnel` (must use external network)
 
 #### Method 1 — Ping the default gateway of most home routers
-If the VPN is working, you should be able to:
+If the VPN tunnel is working, you should be able to:
 ```
 ping 10.100.0.1
 ```
@@ -464,14 +464,14 @@ ping 10.10.0.1
 ```
 
 #### Method 2 — Ping DGX Spark’s home LAN IP
-If the VPN is working, you should be able to:
+If the VPN tunnel is working, you should be able to:
 ```
 # Remove the angle brackets around <192.168.x.x> and replace it with DGX Spark internal DHCP dynamic IP (192.168.x.x)
 ping <192.168.x.x>
 ```
 
 #### Method 3 — SSH into DGX Spark
-If the VPN is working, SSH should succeed (it will ask you for the DGX Spark login password):
+If the VPN tunnel is working, SSH should succeed (it will ask you for the DGX Spark login password):
 ```
 # Remove the angle brackets around <DGX Spark username> and replace it with the username used to log in after DGX Spark boots
 # Remove the angle brackets around <192.168.x.x> and replace it with DGX Spark intranet DHCP dynamic IP (192.168.x.x)
@@ -479,7 +479,7 @@ ssh <DGX Spark username>@<192.168.x.x>
 ```
 
 #### Method 4 — Query your fixed Public IP from “inside home”
-If the VPN is working, you should see your fixed Public IP `x.x.x.x`:
+If the VPN tunnel is working, you should see your fixed Public IP `x.x.x.x`:
 ```
 curl ifconfig.me
 ```
