@@ -1,5 +1,5 @@
 # DGX Spark (Day01A) REMOTE ACCESS Guide 20251220A 🟩 [English](https://github.com/Sniper711/DGX-Spark-Day01A-Remote-Access-Guide-20251220A/blob/main/DGX%20Spark%20(Day01A)%20Remote%20Access%20Guide%2020251220A.md)
-# DGX Spark (第01天之A) 外網遠端操控 指南 20251220A 🟩 [中文版](https://github.com/Sniper711/DGX-Spark-Day01A-Remote-Access-Guide-20251220A/blob/main/DGX%20Spark%20(%E7%AC%AC01%E5%A4%A9%E4%B9%8BA)%20%E5%BE%9E%E5%A4%96%E7%B6%B2%E6%93%8D%E6%8E%A7%20%E6%8C%87%E5%8D%97%2020251220A.md)
+# DGX Spark (第01天之A) 外網遠端操控 指南 20251220A 🟩 [中文版](https://github.com/Sniper711/DGX-Spark-Day01A-Remote-Access-Guide-20251220A/blob/main/DGX%20Spark%20(%E7%AC%AC01%E5%A4%A9%E4%B9%8BA)%20%E5%A4%96%E7%B6%B2%E9%81%A0%E7%AB%AF%E6%93%8D%E6%8E%A7%20%E6%8C%87%E5%8D%97%2020251220A.md)
 
 
 ## Scenarios & Advantages
