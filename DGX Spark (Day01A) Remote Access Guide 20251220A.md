@@ -21,7 +21,7 @@
 > -
 > - **SSH Access to the DGX Spark**
 > - 
-> - Simple one-line **SSH command to login DGX Spark** Server
+> - Simple one-line **SSH command to login DGX Spark**
 
 
 ---
