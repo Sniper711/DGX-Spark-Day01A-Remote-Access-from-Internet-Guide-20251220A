@@ -63,9 +63,9 @@
   - [8.2 Import WireGuard client configuration file, and activate VPN (must use external network)](#82-import-wireguard-client-configuration-file-and-activate-vpn-must-use-external-network)
   - [8.3 Three ways to validate the `VPN tunnel` (must use external network)](#83-three-ways-to-validate-the-vpn-tunnel-must-use-external-network)
 
-- [9. SSH Login to the DGX Spark Server](#9-ssh-login-to-the-dgx-spark-server)
-  - [9.1 Logging to the DGX Spark Server from your Mac/PC Client](#91-logging-to-the-dgx-spark-server-from-your-macpc-client)
-  - [9.2 Monitoring the DGX Spark Server](#92-monitoring-the-dgx-spark-server)
+- [9. Login and Control the DGX Spark Server](#9-login-and-control-the-dgx-spark-server)
+  - [9.1 SHH Login to the DGX Spark Server from your Mac/PC Client](#91-shh-login-to-the-dgx-spark-server-from-your-macpc-client)
+  - [9.2 Two Example Methods to Control the DGX Spark Server](#92-two-example-methods-to-control-the-dgx-spark-server)
 
 ---
 
@@ -484,16 +484,17 @@ You should see the three checks all pass.
 
 ---
 
-## 9. SSH Login to the DGX Spark Server
-### 9.1 Logging to the DGX Spark Server from your Mac/PC Client
-Use **SSH** with this super simple one-line command (you'll need to enter the DGX Spark boot password)
+## 9. Login and Control the DGX Spark Server
+### 9.1 SHH Login to the DGX Spark Server from your Mac/PC Client
+Use the following simple one-line **SSH** command to login DGX Spark Server. (you'll need to enter the DGX Spark boot password)
 ```
 # Remove <DGX Spark username>, and replace it with the username used to log in after DGX Spark boots
 # Remove <192.168.x.x>, and replace it with DGX Spark intranet IP address (192.168.x.x)
 ssh <DGX Spark username>@<192.168.x.x>
 ```
 
-### 9.2 Monitoring the DGX Spark Server
+### 9.2 Two Example Methods to Control/Monitor the DGX Spark Server
+**Control/Monitor DGX Spark Server from your Mac/PC Client**
 Method 1: From your Mac/PC Client, run this command to monitor the DGX Spark server's GPU temperature (GPU Temp column) and GPU utilization (GPU-Util column) once per second.
 ```
 watch -n 1 nvidia-smi
