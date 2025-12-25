@@ -471,7 +471,7 @@ ping <192.168.x.x>
 ```
 
 #### Method 3 — SSH into DGX Spark
-If the VPN is working, SSH should succeed:
+If the VPN is working, SSH should succeed (it will ask you for the DGX Spark login password):
 ```
 # Remove the angle brackets around <DGX Spark username> and replace it with the username used to log in after DGX Spark boots
 # Remove the angle brackets around <192.168.x.x> and replace it with DGX Spark internal DHCP dynamic IP (192.168.x.x)
