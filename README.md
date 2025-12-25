@@ -4,7 +4,7 @@
 
 ## Scenarios & Advantages
 
-From an external network on Mac/PC → via WireGuard VPN → connect back home to access DGX Spark
+From an external network on Mac/PC → via WireGuard VPN → SSH login to DGX Spark at home
 
     Use WireGuard VPN
         Use DGX Spark as VPN Server. (Mac/PC = Client)
@@ -21,6 +21,7 @@ From an external network on Mac/PC → via WireGuard VPN → connect back home t
     Use a low-end Router
         Router: must have a fixed Public IP (x.x.x.x) and support Port Forwarding.
         Since Tunnelblick and OpenVPN are not used, the Router does not need advanced VPN features (if available, disable them), just a cheap Router is sufficient.
+    Simple one-line SSH command login to DGX Spark
 .....
 
 .....
@@ -30,7 +31,7 @@ Congratulations — your Mac/PC can now reach your DGX Spark from anywhere.
 
 ## 適用情境 與 優點
 
-人在外網用 Mac/PC → 透過 WireGuard VPN → 連回家 存取 DGX Spark
+人在外網用 Mac/PC → 透過 WireGuard VPN → SSH 登入家中 DGX Spark
 
     全面改用 WireGuard VPN
         以 DGX Spark 為 VPN Server. (Mac/PC = Client)
@@ -47,8 +48,7 @@ Congratulations — your Mac/PC can now reach your DGX Spark from anywhere.
     用低階的 Router
         Router：需有 固定 Public IP (x.x.x.x), 需支援 Port Forward.
         因為不使用 Tunnerblick 與 OpenVPN，所以 Router 並不需要 VPN 高階功能 (有則關閉之)，只需便宜的 Router.
-    超簡單上手的 SSH
-        一行 SSH 指令登入
+    SSH 一行指令登入 DGX Spark
 .....
 
 .....
