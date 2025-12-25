@@ -47,6 +47,8 @@ Congratulations — your Mac/PC can now reach your DGX Spark from anywhere.
     用低階的 Router
         Router：需有 固定 Public IP (x.x.x.x), 需支援 Port Forward.
         因為不使用 Tunnerblick 與 OpenVPN，所以 Router 並不需要 VPN 高階功能 (有則關閉之)，只需便宜的 Router.
+    超簡單上手的 SSH
+        一行 SSH 指令登入
 .....
 
 .....
