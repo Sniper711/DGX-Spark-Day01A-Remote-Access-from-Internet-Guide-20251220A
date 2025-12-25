@@ -473,9 +473,9 @@ ping <192.168.x.x>
 #### Method 3 — SSH into DGX Spark
 If the VPN is working, SSH should succeed:
 ```
-# Remove the angle brackets around <DGX Spark Login ID> and replace it with the USER ID used to log in after DGX Spark boots
+# Remove the angle brackets around <DGX Spark username> and replace it with the username used to log in after DGX Spark boots
 # Remove the angle brackets around <192.168.x.x> and replace it with DGX Spark internal DHCP dynamic IP (192.168.x.x)
-ssh <DGX Spark USER ID>@<192.168.x.x>
+ssh <DGX Spark username>@<192.168.x.x>
 ```
 
 #### Method 4 — Query your fixed Public IP from “inside home”
