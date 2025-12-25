@@ -1,7 +1,7 @@
 # DGX Spark (Day01A) Remote Access from Internet Guide 20251220A
 ## 🟩 English
 > ## Scenarios & Advantages
-> **From an external network on Mac/PC → via WireGuard VPN → connect back home to access DGX Spark**
+> **From an external network on Mac/PC → via WireGuard VPN → SSH access to DGX Spark at home**
 > - **Use WireGuard VPN**
 >   - Use DGX Spark as VPN Server. (Mac/PC = Client)
 >   - The VPN penetration rate is extremely high, and using a mobile hotspot is rarely blocked by carriers.
@@ -17,9 +17,9 @@
 > - **Use a low-end Router**
 >   - Router: must have a fixed Public IP (x.x.x.x) and support Port Forwarding.
 >   - Since Tunnelblick and OpenVPN are not used, the Router does not need advanced VPN features (if available, disable them), just a cheap Router is sufficient.
-> - Simple one-line **SSH command to login DGX Spark** Server
+> - One-line **SSH** command **to login DGX Spark** Server
 > -
-> - **SSH Login to the DGX Spark**
+> - **SSH Access to the DGX Spark**
 > - 
 > - Simple one-line **SSH command to login DGX Spark** Server
 
