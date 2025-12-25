@@ -84,7 +84,7 @@
 ### 1.3 Configure Port Forwarding
 
 **Find DGX Spark’s LAN IP**
-- Log in to the router settings page, locate the internal IP of device spark-xxxx (192.168.x.x), and make a note of it.
+- Log in to the router settings page, locate the intranet IP address of device spark-xxxx (192.168.x.x), and make a note of it.
 
 **PPPoE login ISP to obtain the fixed Public IP**  
 (Usually under router settings page: `Main Page` → `WAN` → `WAN Setting`)
@@ -466,25 +466,47 @@ ping 10.10.0.1
 #### Method 2 — Ping DGX Spark’s home LAN IP
 If the VPN tunnel is working, you should be able to:
 ```
-# Remove the angle brackets around <192.168.x.x> and replace it with DGX Spark internal DHCP dynamic IP (192.168.x.x)
+# Remove the angle brackets around <192.168.x.x> and replace it with DGX Spark intranet IP address (192.168.x.x)
 ping <192.168.x.x>
+```
+
+#### Method 3 — Query your fixed Public IP from “inside home”
+If the VPN tunnel is working, you should see your fixed Public IP `x.x.x.x`:
+```
+curl ifconfig.me
+```
+
+You should see the three checks all pass.  
+
+---
+
+## 9. SSH Login to the DGX Spark Server
+### 9.1 Logging In to the DGX Spark Server from the Mac/PC Client
+**SSH**：a super simple one-line command (you'll need to enter the DGX Spark boot password)
+```
+# Remove <DGX Spark username>, and replace it with the username used to log in after DGX Spark boots
+# Remove <192.168.x.x>, and replace it with DGX Spark intranet IP address (192.168.x.x)
+ssh <DGX Spark username>@<192.168.x.x>
+```
+
+### 9.2 Monitoring the DGX Spark Server
+SSH：a super simple one-line command (you'll need to enter the DGX Spark boot password)
+```
+# Remove <DGX Spark username>, and replace it with the username used to log in after DGX Spark boots
+# Remove <192.168.x.x>, and replace it with DGX Spark intranet IP address (192.168.x.x)
+ssh <DGX Spark username>@<192.168.x.x>
 ```
 
 #### Method 3 — SSH into DGX Spark
 If the VPN tunnel is working, SSH should succeed (it will ask you for the DGX Spark login password):
 ```
 # Remove the angle brackets around <DGX Spark username> and replace it with the username used to log in after DGX Spark boots
-# Remove the angle brackets around <192.168.x.x> and replace it with DGX Spark intranet DHCP dynamic IP (192.168.x.x)
+# Remove the angle brackets around <192.168.x.x> and replace it with DGX Spark intranet IP address address (192.168.x.x)
 ssh <DGX Spark username>@<192.168.x.x>
 ```
 
-#### Method 4 — Query your fixed Public IP from “inside home”
-If the VPN tunnel is working, you should see your fixed Public IP `x.x.x.x`:
-```
-curl ifconfig.me
-```
+---
 
-If all four checks pass:  
 # Congratulations — your Mac/PC can now reach your DGX Spark from anywhere.
 
 ---
