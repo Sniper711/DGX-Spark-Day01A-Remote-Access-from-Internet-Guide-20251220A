@@ -17,6 +17,8 @@
 > - **Use a low-end Router**
 >   - Router: must have a fixed Public IP (x.x.x.x) and support Port Forwarding.
 >   - Since Tunnelblick and OpenVPN are not used, the Router does not need advanced VPN features (if available, disable them), just a cheap Router is sufficient.
+> - Simple one-line **SSH command to login DGX Spark** Server
+> -
 > - **SSH Login to the DGX Spark**
 > - 
 > - Simple one-line **SSH command to login DGX Spark** Server
