@@ -480,9 +480,9 @@ You should see the three checks all pass.
 
 ---
 
-## 9. SSH Login to the DGX Spark Server
-### 9.1 Logging In to the DGX Spark Server from the Mac/PC Client
-**SSH**：a super simple one-line command (you'll need to enter the DGX Spark boot password)
+## 9. SSH Log In to the DGX Spark Server
+### 9.1 Log In to the DGX Spark Server from the Mac/PC Client
+Use **SSH**：a super simple one-line command (you'll need to enter the DGX Spark boot password)
 ```
 # Remove <DGX Spark username>, and replace it with the username used to log in after DGX Spark boots
 # Remove <192.168.x.x>, and replace it with DGX Spark intranet IP address (192.168.x.x)
