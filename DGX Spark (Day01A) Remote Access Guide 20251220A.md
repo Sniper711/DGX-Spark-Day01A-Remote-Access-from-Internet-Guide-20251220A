@@ -480,9 +480,9 @@ You should see the three checks all pass.
 
 ---
 
-## 9. SSH Log In to the DGX Spark Server
-### 9.1 Log In to the DGX Spark Server from the Mac/PC Client
-Use **SSH**：a super simple one-line command (you'll need to enter the DGX Spark boot password)
+## 9. SSH Login to the DGX Spark Server
+### 9.1 Logging to the DGX Spark Server from your Mac/PC Client
+Use **SSH** with this super simple one-line command (you'll need to enter the DGX Spark boot password)
 ```
 # Remove <DGX Spark username>, and replace it with the username used to log in after DGX Spark boots
 # Remove <192.168.x.x>, and replace it with DGX Spark intranet IP address (192.168.x.x)
@@ -490,20 +490,16 @@ ssh <DGX Spark username>@<192.168.x.x>
 ```
 
 ### 9.2 Monitoring the DGX Spark Server
-SSH：a super simple one-line command (you'll need to enter the DGX Spark boot password)
+Method 1: From your Mac/PC Client, run this command to monitor the DGX Spark server's GPU temperature (GPU Temp column) and GPU utilization (GPU-Util column) once per second.
 ```
-# Remove <DGX Spark username>, and replace it with the username used to log in after DGX Spark boots
-# Remove <192.168.x.x>, and replace it with DGX Spark intranet IP address (192.168.x.x)
-ssh <DGX Spark username>@<192.168.x.x>
+watch -n 1 nvidia-smi
 ```
 
-#### Method 3 — SSH into DGX Spark
-If the VPN tunnel is working, SSH should succeed (it will ask you for the DGX Spark login password):
+Method 2: From your Mac/PC Client, run this command to monitor the DGX Spark server's total system memory (total column) and current usage (used column) once per second.
 ```
-# Remove the angle brackets around <DGX Spark username> and replace it with the username used to log in after DGX Spark boots
-# Remove the angle brackets around <192.168.x.x> and replace it with DGX Spark intranet IP address address (192.168.x.x)
-ssh <DGX Spark username>@<192.168.x.x>
+watch -n 1 free -h
 ```
+You should see both methods working correctly.  
 
 ---
 
