@@ -493,7 +493,7 @@ Use the following simple one-line **SSH** command to login DGX Spark Server. (yo
 ssh <DGX Spark username>@<192.168.x.x>
 ```
 
-### 9.2 Two Example Methods to Control/Monitor the DGX Spark Server
+### 9.2 Two Example Methods to Control the DGX Spark Server
 **Control/Monitor DGX Spark Server from your Mac/PC Client**
 Method 1: From your Mac/PC Client, run this command to monitor the DGX Spark server's GPU temperature (GPU Temp column) and GPU utilization (GPU-Util column) once per second.
 ```
