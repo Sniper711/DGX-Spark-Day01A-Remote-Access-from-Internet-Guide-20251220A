@@ -1,7 +1,7 @@
 # DGX Spark (Day01A) Remote Access from Internet Guide 20251220A
 ## 🟩 English
 > ## Scenarios & Advantages
-> **From an external network on Mac/PC → via WireGuard VPN → SSH Login to DGX Spark at home**
+> **From an external network on Mac/PC → via WireGuard VPN → SSH login to DGX Spark at home**
 > - **Use WireGuard VPN**
 >   - Use DGX Spark as VPN Server. (Mac/PC = Client)
 >   - The VPN penetration rate is extremely high, and using a mobile hotspot is rarely blocked by carriers.
