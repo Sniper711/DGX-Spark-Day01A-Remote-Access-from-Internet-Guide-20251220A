@@ -1,5 +1,5 @@
-# DGX Spark (Day01) WireGuard VPN Guide 2025-12-20 🟩 [English](https://github.com/Sniper711/DGX-Spark-Day01-WireGuard-VPN-Guide-2025-12-20/blob/main/DGX%20Spark%20(Day01)%20WireGuard%20VPN%20Guide%202025-12-20.md)
-# DGX Spark (第01天) WireGuard VPN 指南 2025-12-20 🟩 [中文版](https://github.com/Sniper711/DGX-Spark-Day01-WireGuard-VPN-Guide-2025-12-20/blob/main/DGX%20Spark%20(%E7%AC%AC01%E5%A4%A9)%20WireGuard%20VPN%20%E6%8C%87%E5%8D%97%202025-12-20.md)
+# DGX Spark (Day01A) REMOTE ACCESS Guide 20251220A 🟩 [English](https://github.com/Sniper711/DGX-Spark-Day01-WireGuard-VPN-Guide-2025-12-20/blob/main/DGX%20Spark%20(Day01)%20WireGuard%20VPN%20Guide%202025-12-20.md)
+# DGX Spark (第01天之A) 從外網操控 指南 20251220A 🟩 [中文版](https://github.com/Sniper711/DGX-Spark-Day01-WireGuard-VPN-Guide-2025-12-20/blob/main/DGX%20Spark%20(%E7%AC%AC01%E5%A4%A9)%20WireGuard%20VPN%20%E6%8C%87%E5%8D%97%202025-12-20.md)
 
 
 ## Scenarios & Advantages
