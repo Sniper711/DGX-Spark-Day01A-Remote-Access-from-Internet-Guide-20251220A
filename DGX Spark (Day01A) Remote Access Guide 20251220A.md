@@ -61,8 +61,8 @@
 - [8. Mac/PC Client: VPN back home (DGX Spark Server) from an external network](#8-macpc-client-vpn-back-home-dgx-spark-server-from-an-external-network)
   - [8.1 Install WireGuard VPN](#81-install-wireguard-vpn)
   - [8.2 Import WireGuard client configuration file, and activate VPN (must use external network)](#82-import-wireguard-client-configuration-file-and-activate-vpn-must-use-external-network)
-  - [8.3 Four ways to validate the VPN tunnel (must use external network)](#83-four-ways-to-validate-the-vpn-tunnel-must-use-external-network)
-
+  - [8.3 Three ways to validate the `VPN tunnel` (must use external network)](#83-three-ways-to-validate-the-vpn-tunnel-must-use-external-network)
+  
 ---
 
 ## 1. Router setup (required)
