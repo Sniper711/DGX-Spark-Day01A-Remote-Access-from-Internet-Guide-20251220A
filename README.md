@@ -6,7 +6,7 @@
 
 From an external network on Mac/PC → via WireGuard VPN → connect back home to access DGX Spark
 
-    Use WireGuard
+    Use WireGuard VPN
         Use DGX Spark as VPN Server. (Mac/PC = Client)
         The VPN penetration rate is extremely high, and using a mobile hotspot is rarely blocked by carriers.
         Configuring WireGuard with UDP port 51820 along with keepalive is the right move.
@@ -32,7 +32,7 @@ Congratulations — your Mac/PC can now reach your DGX Spark from anywhere.
 
 人在外網用 Mac/PC → 透過 WireGuard VPN → 連回家 存取 DGX Spark
 
-    全面改用 WireGuard
+    全面改用 WireGuard VPN
         以 DGX Spark 為 VPN Server. (Mac/PC = Client)
         VPN 穿透率極高，行動網路開熱點上網幾乎不被行動網路阻擋.
         WireGuard 設定 UDP 51820 Port 搭配 keepalive 是正解.
