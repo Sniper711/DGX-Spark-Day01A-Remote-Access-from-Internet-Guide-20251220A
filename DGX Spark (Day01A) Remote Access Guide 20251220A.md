@@ -2,7 +2,7 @@
 ## 🟩 English
 > ## Scenarios & Advantages
 > **From an external network on Mac/PC → via WireGuard VPN → connect back home to access DGX Spark**
-> - **Use WireGuard**
+> - **Use WireGuard VPN**
 >   - Use DGX Spark as VPN Server. (Mac/PC = Client)
 >   - The VPN penetration rate is extremely high, and using a mobile hotspot is rarely blocked by carriers.
 >   - Configuring WireGuard with UDP port 51820 along with keepalive is the right move.
@@ -137,7 +137,7 @@ exxxxx (for example)
   - If you change hardware, you must update the commands accordingly.
   - Example: buying a second DGX Spark may yield a different NIC name; you must confirm again.
 
-### 2.2 Install WireGuard
+### 2.2 Install WireGuard VPN
 ```
 sudo apt update
 sudo apt install -y wireguard
@@ -436,7 +436,7 @@ Confirm that the Mac/PC is not connected to the home network, at this point:
 - Unplug any wired ethernet
 - Connect to mobile hotspot
 
-### 8.1 Install WireGuard
+### 8.1 Install WireGuard VPN
 - macOS: install via **App Store** or **wireguard.com** (two options)
 - Windows / Linux: install via **wireguard.com** (one option)
 
