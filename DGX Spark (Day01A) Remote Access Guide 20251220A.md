@@ -29,7 +29,7 @@
 
 - [2. DGX Spark Server: confirm NIC name and install WireGuard](#2-dgx-spark-server-confirm-nic-name-and-install-wireguard)
   - [2.1 Confirm the physical NIC name (critical)](#21-confirm-the-physical-nic-name-critical)
-  - [2.2 Install WireGuard](#22-install-wireguard)
+  - [2.2 Install WireGuard VPN](#22-install-wireguard-vpn)
 
 - [3. DGX Spark Server: create WireGuard directory and keys](#3-dgx-spark-server-create-wireguard-directory-and-keys)
   - [3.0 Enter a root shell (Very Important)](#30-enter-a-root-shell-very-important)
@@ -59,7 +59,7 @@
   - [7.3 Key mapping quick reference](#73-key-mapping-quick-reference)
 
 - [8. Mac/PC Client: VPN back home (DGX Spark Server) from an external network](#8-macpc-client-vpn-back-home-dgx-spark-server-from-an-external-network)
-  - [8.1 Install WireGuard](#81-install-wireguard)
+  - [8.1 Install WireGuard VPN](#81-install-wireguard-vpn)
   - [8.2 Import WireGuard client configuration file, and activate VPN (must use external network)](#82-import-wireguard-client-configuration-file-and-activate-vpn-must-use-external-network)
   - [8.3 Four ways to validate the VPN tunnel (must use external network)](#83-four-ways-to-validate-the-vpn-tunnel-must-use-external-network)
 
@@ -120,7 +120,7 @@
 
 ---
 
-## 2. DGX Sppark Server: confirm NIC name and install WireGuard
+## 2. DGX Spark Server: confirm NIC name and install WireGuard
 
 ### 2.1 Confirm the physical NIC name (critical)
 NIC stands for Network Interface Card. Use this command
