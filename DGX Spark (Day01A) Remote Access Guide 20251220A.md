@@ -1,4 +1,4 @@
-# DGX Spark (Day01A) Remote Access Guide 20251220A
+# DGX Spark (Day01A) Remote Access from Internet Guide 20251220A
 ## 🟩 English
 > ## Scenarios & Advantages
 > **From an external network on Mac/PC → via WireGuard VPN → connect back home to access DGX Spark**
