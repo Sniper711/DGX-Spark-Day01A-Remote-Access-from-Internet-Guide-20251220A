@@ -393,7 +393,7 @@ DNS = 168.95.192.1, 8.8.8.8
 #   sudo wg show wg-dgx-spark
 # Remember: Server PublicKey must be stored on Mac-PC (Client)
 #
-# Remove the `<server_public_key>`, and replace it with the Server Public value
+# Remove `<server_public_key>`, and replace it with the Server Public value
 PublicKey = <server_public_key>
 
 # WireGuard Server public endpoint address
@@ -471,7 +471,7 @@ ping 10.10.0.1
 #### Method 2 — Ping DGX Spark’s home LAN IP
 If the VPN tunnel is working, you should be able to:
 ```
-# Remove the angle brackets around <192.168.x.x> and replace it with DGX Spark intranet IP address (192.168.x.x)
+# Remove `<192.168.x.x>`, and replace it with DGX Spark intranet IP address (192.168.x.x)
 ping <192.168.x.x>
 ```
 
@@ -489,8 +489,8 @@ You should see the three checks all pass.
 ### 9.1 SHH Login to the DGX Spark Server from your Mac/PC Client
 Use the following simple one-line **SSH** command to login DGX Spark Server. (you'll need to enter the DGX Spark boot password)
 ```
-# Remove <DGX Spark username>, and replace it with the username used to log in after DGX Spark boots
-# Remove <192.168.x.x>, and replace it with DGX Spark intranet IP address (192.168.x.x)
+# Remove `<DGX Spark username>`, and replace it with the username used to log in after DGX Spark boots
+# Remove `<192.168.x.x>`, and replace it with DGX Spark intranet IP address (192.168.x.x)
 ssh <DGX Spark username>@<192.168.x.x>
 ```
 
