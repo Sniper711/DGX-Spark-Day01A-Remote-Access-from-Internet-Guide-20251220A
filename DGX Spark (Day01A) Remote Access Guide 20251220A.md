@@ -514,7 +514,6 @@ You should see both methods working correctly.
 ---
 
 # Congratulations — your Mac/PC can now reach your DGX Spark from anywhere.
-
 <sub><sup>＊After rebooting, simply have the Mac/PC Client run this SHH command in step 9.1 - it's super easy.</sup></sub>
 
 ---
