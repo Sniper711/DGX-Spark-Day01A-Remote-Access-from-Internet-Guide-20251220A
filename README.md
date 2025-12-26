@@ -22,6 +22,7 @@ From an external network on Mac/PC → via WireGuard VPN → SSH login to DGX Sp
         Router: must have a fixed Public IP (x.x.x.x) and support Port Forwarding.
         Since Tunnelblick and OpenVPN are not used, the Router does not need advanced VPN features (if available, disable them), just a cheap Router is sufficient.
     Simple one-line SSH command login to DGX Spark
+        After rebooting, simply have the Mac/PC Client run this SHH command in step 9.1 - it's super easy.
 .....
 
 .....
@@ -49,6 +50,7 @@ Congratulations — your Mac/PC can now reach your DGX Spark from anywhere.
         Router：需有 固定 Public IP (x.x.x.x), 需支援 Port Forward.
         因為不使用 Tunnerblick 與 OpenVPN，所以 Router 並不需要 VPN 高階功能 (有則關閉之)，只需便宜的 Router.
     SSH 一行指令登入 DGX Spark
+        重開機之後，只要 Mac/PC (Client) 執行步驟9.1這行SHH指令，超級簡單。
 .....
 
 .....
