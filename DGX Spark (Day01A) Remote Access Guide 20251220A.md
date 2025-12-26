@@ -324,7 +324,7 @@ systemctl start wg-quick@wg-dgx-spark
 
 ### 6.1 Check systemd (system daemon) status
 ```
-ssystemctl status wg-quick@wg-dgx-spark
+systemctl status wg-quick@wg-dgx-spark
 ```
 
 You should see:
