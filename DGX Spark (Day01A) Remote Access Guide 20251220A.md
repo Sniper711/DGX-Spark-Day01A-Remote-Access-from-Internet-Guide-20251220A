@@ -66,7 +66,7 @@
 
 - [9. Login and Command the DGX Spark Server](#9-login-and-command-the-dgx-spark-server)
   - [9.1 SHH Login to the DGX Spark Server from your Mac/PC Client](#91-shh-login-to-the-dgx-spark-server-from-your-macpc-client)
-  - [9.2 Two Example Methods to Command the DGX Spark Server](#92-two-example-methods-to-command-the-dgx-spark-server)
+  - [9.2 Two Example Methods to Command the DGX Spark Server from your Mac/PC Client](#92-two-example-methods-to-command-the-dgx-spark-server-from-your-macpc-client)
 
 ---
 
