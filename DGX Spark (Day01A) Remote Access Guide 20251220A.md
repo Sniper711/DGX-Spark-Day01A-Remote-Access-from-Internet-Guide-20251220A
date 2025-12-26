@@ -18,6 +18,7 @@
 >   - Router: must have a fixed Public IP (x.x.x.x) and support Port Forwarding.
 >   - Since Tunnelblick and OpenVPN are not used, the Router does not need advanced VPN features (if available, disable them), just a cheap Router is sufficient.
 > - Simple one-line **SSH** command **login to DGX Spark**
+>   - After rebooting, simply have the Mac/PC Client run this SHH command in step 9.1 - it's super easy.
 
 ---
 
@@ -488,6 +489,8 @@ You should see the three checks all pass.
 ## 9. Login and Command the DGX Spark Server
 ### 9.1 SHH Login to the DGX Spark Server from your Mac/PC Client
 Use the following simple one-line **SSH** to login DGX Spark Server. (you'll need to enter the DGX Spark boot password)
+
+<sub><sup>＊After rebooting, simply have the Mac/PC Client run this SHH command in step 9.1 - it's super easy.</sup></sub>
 ```
 # Remove `<DGX Spark username>`, and replace it with the username used to log in after DGX Spark boots
 # Remove `<192.168.x.x>`, and replace it with DGX Spark intranet IP address (192.168.x.x)
@@ -511,5 +514,7 @@ You should see both methods working correctly.
 ---
 
 # Congratulations — your Mac/PC can now reach your DGX Spark from anywhere.
+
+<sub><sup>＊After rebooting, simply have the Mac/PC Client run this SHH command in step 9.1 - it's super easy.</sup></sub>
 
 ---
