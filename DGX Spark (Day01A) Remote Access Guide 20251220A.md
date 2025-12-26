@@ -485,7 +485,7 @@ You should see the three checks all pass.
 
 ---
 
-## 9. Login and Control the DGX Spark Server
+## 9. Login and Command the DGX Spark Server
 ### 9.1 SHH Login to the DGX Spark Server from your Mac/PC Client
 Use the following simple one-line **SSH** command to login DGX Spark Server. (you'll need to enter the DGX Spark boot password)
 ```
@@ -494,14 +494,14 @@ Use the following simple one-line **SSH** command to login DGX Spark Server. (yo
 ssh <DGX Spark username>@<192.168.x.x>
 ```
 
-### 9.2 Two Example Methods to Control the DGX Spark Server
-**Control/Monitor DGX Spark Server from your Mac/PC Client**
-Method 1: From your Mac/PC Client, run this command to monitor the DGX Spark server's GPU temperature (GPU Temp column) and GPU utilization (GPU-Util column) once per second.
+### 9.2 Two Example Methods to Command the DGX Spark Server
+**Command DGX Spark Server from your Mac/PC Client**
+Method 1: Command the DGX Spark server to report GPU temperature (GPU Temp column) and GPU utilization (GPU-Util column) once per second.
 ```
 watch -n 1 nvidia-smi
 ```
 
-Method 2: From your Mac/PC Client, run this command to monitor the DGX Spark server's total system memory (total column) and current usage (used column) once per second.
+Method 2: Command the DGX Spark server to report total system memory (total column) and current usage (used column) once per second.
 ```
 watch -n 1 free -h
 ```
