@@ -20,6 +20,10 @@
 > - Simple one-line **SSH** command **login to DGX Spark**
 >   - After rebooting, simply have the Mac/PC Client run this SHH command in step 9.1 - it's super easy.
 
+
+<img width="617" height="508" alt="Day01A" src="https://github.com/user-attachments/assets/a9631407-221e-4316-9cea-fa9c1415cf4e" />
+
+
 ---
 
 
