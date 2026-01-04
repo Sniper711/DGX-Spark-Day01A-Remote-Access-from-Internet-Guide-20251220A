@@ -67,3 +67,7 @@ Congratulations — your Mac/PC can now reach your DGX Spark from anywhere.
 ---
 Davis Lin (Sniper711) . 
 Unauthorized article copying, distribution, or modification is prohibited.
+
+
+<img width="617" height="508" alt="Day01A" src="https://github.com/user-attachments/assets/782ec605-b57c-4d85-a222-63f00e329b43" />
+
